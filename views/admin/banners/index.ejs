@@ -1,0 +1,59 @@
+<%- include('../../partials/admin/header'); %>
+
+<div>
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header">
+        <strong>Banner</strong> <small>List</small>
+      </div>
+     <div class="card-body">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Url</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ncell Ncell</td>
+                <td>http://ncell.com.np</td>
+                <td>
+                    <img class="img-thumbnail" src="https://coreui.io/demo/3.2.0/assets/img/avatars/6.jpg" alt="">
+                </td>
+                <td>
+                    <div class="d-flex">
+                        <a href="/banners/show/1" class="btn btn-sm btn-pill btn-info mr-1">Show</a> 
+                        <a href="/banners/create" class="btn btn-sm btn-pill btn-warning mr-1">Edit</a> 
+                        <a href="show" class="btn btn-sm btn-pill btn-danger mr-1">Delete</a> 
+                    </div>
+                </td>
+              </tr>
+                <tr>
+                <th scope="row">1</th>
+                <td>Ntc Ntc</td>
+                <td>http://ntc.com.np</td>
+                <td>
+                    <img class="img-thumbnail" src="https://coreui.io/demo/3.2.0/assets/img/avatars/1.jpg" alt="">
+                </td>
+                <td>
+                    <div class="d-flex">
+                        <a href="/banners/show/1" class="btn btn-sm btn-pill btn-info mr-1">Show</a> 
+                        <a href="/banners/create" class="btn btn-sm btn-pill btn-warning mr-1">Edit</a> 
+                        <a href="show" class="btn btn-sm btn-pill btn-danger mr-1">Delete</a> 
+                    </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+     </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../../partials/admin/footer'); %>
